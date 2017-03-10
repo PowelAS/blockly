@@ -5,8 +5,7 @@ var extend = require('xtend');
 
 var Blockly = require('./lib/blockly_compressed');
 
-Blockly.Msg = extend(require('./lib/i18n/en'), Blockly.Msg);
-Blockly.Msg = Blockly.Msg();
+Blockly.Msg = extend(Blockly.Msg, require('./lib/i18n/en')());
 
 Blockly.Blocks = extend(Blockly.Blocks, require('./lib/blocks_compressed')(Blockly));
 

@@ -1,6 +1,6 @@
 {
   "name": "@powel/blockly",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "Blockly is a library for building visual programming editors.",
   "keywords": [
     "blockly"

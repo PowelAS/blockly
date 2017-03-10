@@ -63,5 +63,5 @@ gulp.task('pybuild', function (cb) {
   });
 });
 
-gulp.task('build', ['clean', 'blocks', 'blockly', 'en', 'js']);
+gulp.task('build', ['clean', 'blocks', 'blockly', 'en', 'js', 'python']);
 gulp.task('default', ['build']);
